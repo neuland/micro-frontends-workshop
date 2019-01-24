@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background-color: #BC5D5F;
+  background-color: #6E74A9;
 }
 
 .root {
@@ -26,19 +26,20 @@ body {
 
 h1 {
   font-size: 50px;
-  color: #5E0F11;
-}
+  color: #1D1B6C;
+} 
+
+h2 {
+  font-size: 35px;
+  color: #1D1B6C;
+} 
 
 a {
   font-size: 25px;
-  
-}
-a {
-  font-size: 25px;
-  background-color: #5E0F11;
+  background-color: #1D1B6C;
   display: inline-block;
   padding: 15px 28px;
-  color: rgb(228, 149, 152);
+  color: rgb(160, 159, 209);
   text-decoration: none;
   border-radius: 5px;
   box-shadow: 0 7px 10px -3px rgba(0,0,0,0.4);
