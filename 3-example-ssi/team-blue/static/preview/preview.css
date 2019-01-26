@@ -1,0 +1,13 @@
+.blue_fragment {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E74A9;
+}
+
+.blue_fragment h2 {
+  font-size: 35px;
+  color: #1D1B6C;
+} 

@@ -13,4 +13,4 @@ COPY ./src /code/src
 COPY ./static /code/static
 
 EXPOSE 3001
-CMD [ "./node_modules/.bin/nodemon", "--watch", "./src", "--exec", "npm", "start" ]
+CMD [ "./node_modules/.bin/nodemon", "-e", "html,css", "--watch", "./src", "--exec", "npm", "start", "-L" ]

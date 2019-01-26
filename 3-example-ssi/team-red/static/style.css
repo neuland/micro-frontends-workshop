@@ -8,37 +8,29 @@ html, body {
   font-family: sans-serif;
 }
 
-body {
-  background-color: #BC5D5F;
-}
-
-.root {
+.red_root {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #BC5D5F;
 }
 
-.root div {
+.red_root div {
   text-align: center;
 }
 
-h1 {
+.red_root h1 {
   font-size: 50px;
   color: #5E0F11;
 }
 
-iframe {
-  display: block;
-  margin-bottom: 30px;
-}
-
-a {
+.red_root a {
   font-size: 25px;
   
 }
-a {
+.red_root a {
   font-size: 25px;
   background-color: #5E0F11;
   display: inline-block;
@@ -50,7 +42,11 @@ a {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-a:hover {
+.red_root a:hover {
   transform: translateY(3px);
   box-shadow: 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+.red_root .fragment-container {
+  margin-bottom: 30px;
 }

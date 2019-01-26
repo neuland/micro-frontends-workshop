@@ -8,19 +8,16 @@ html, body {
   font-family: sans-serif;
 }
 
-body {
-  background-color: #6E74A9;
-}
-
-.root {
+.blue_root {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #6E74A9;
 }
 
-.fragment {
+.blue_fragment {
   height: 100px;
   width: 500px;
   display: flex;
@@ -28,21 +25,16 @@ body {
   align-items: center;
 }
 
-.root div {
+.blue_root div {
   text-align: center;
 }
 
-h1 {
+.blue_root h1 {
   font-size: 50px;
   color: #1D1B6C;
 } 
 
-h2 {
-  font-size: 35px;
-  color: #1D1B6C;
-} 
-
-a {
+.blue_root a {
   font-size: 25px;
   background-color: #1D1B6C;
   display: inline-block;
@@ -54,7 +46,7 @@ a {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-a:hover {
+.blue_root a:hover {
   transform: translateY(3px);
   box-shadow: 0 3px 5px -1px rgba(0,0,0,0.3);
 }
