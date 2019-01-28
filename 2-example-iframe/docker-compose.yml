@@ -1,7 +1,7 @@
 version: "3"
 services:
   nginx:
-    image: nginx:1-alpine
+    build: ./nginx
     # volumes:
     #   - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
     #   - ./nginx/common:/usr/share/nginx/html/common
