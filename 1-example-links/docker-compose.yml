@@ -1,8 +1,10 @@
 version: "3"
 services:
   nginx:
-    image: nginx
     build: ./nginx
+    #volumes:
+    #  - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+    #  - ./nginx/common:/usr/share/nginx/html/common
     ports:
       - "3000:3000"
     depends_on:
@@ -13,8 +15,12 @@ services:
     build: ./team-blue
     ports:
       - "3001:3001"
+    volumes:
+      - ./team-blue/src:/code/src
 
   team_red:
     build: ./team-red
     ports:
       - "3003:3003"
+    volumes:
+      - ./team-red/src:/code/src
